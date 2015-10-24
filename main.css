@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Chalkduster;
+    src: url(fonts/Chalkduster.ttf);
+}
+
+
+body {
+	background-image: url("images/citybackground.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: #cccccc;
+	text-align:center;
+	position: relative;
+	width: auto;
+	height: 800px;
+}
+
+div#main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -60%);
+}
+
+#main img{
+	width: 200px;
+}
+
+h1 {
+	font-family: "Chalkduster", sans-serif;
+	font-size: 40px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	text-align: center;
+	color: white;
+	line-height: 26.4px;
+}
