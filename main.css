@@ -3,14 +3,18 @@
     src: url(fonts/Chalkduster.ttf);
 }
 
+@font-face {
+    font-family: GillSansLight;
+    src: url(fonts/ufonts.com_gillsans-light.ttf);
+}
 
 body {
-	background-image: url("images/citybackground.jpg");
-	background-size: 100%;
+	background-image: url("images/citybackground3.jpg");
+	background-position: center;
 	background-repeat: no-repeat;
-	background-color: #cccccc;
 	text-align:center;
-	position: relative;
+	margin-left: auto;
+	margin-right: auto;
 	width: auto;
 	height: 800px;
 }
@@ -35,4 +39,9 @@ h1 {
 	text-align: center;
 	color: white;
 	line-height: 26.4px;
+}
+
+div#footer {
+	position: relative;
+	font-family: "GillSansLight";
 }
